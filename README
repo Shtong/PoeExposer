@@ -1,0 +1,13 @@
+PoeExposer
+==========
+
+What
+----
+
+PoeExposer is a simple website that can be used to share your *Path of Exile* (PoE) character to the internets. 
+It copies your character data from the PoE servers (with your help) to present it in an interface more optimized for **build analysis** rather than in-game artistic fidelity.
+
+You can't visit the website yet, as it is not ready :(
+
+PoeExposer is an open-source project, and I plan to accept contributions once the first version will be made available.
+The source code is MIT-licenced.

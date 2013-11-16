@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Path Of Exile Character Share Tool</title>
+</head>
+<body>
+    <section id="sec-show">
+        Loading...
+    </section>
+    <section id="sec-initial">
+        <h1>Welcome</h1>
+        <p>The <strong>Path Of Exile Character Share Tool</strong> is a web-based tool that can be used to share your Path Of Exile character with other people with a simple link.</p>
+        <p>Your character data is safely isolated on the Path Of Exile servers. In order to share it you'll have to extract it from there and put it here. To do this, you can either install a plugin on your browser that will do all the work for you, or follow a 3-step guided manual process. Choose your preference below :</p>
+        <a href="#plugin">
+            Install the browser plugin
+        </a>
+        <a href="#manual">
+            Manually import your character
+        </a>
+
+        <p class="disclaimer">
+            This website has been developped by some PoE player; it has been built using <a href="http://knockoutjs.com/" rel="external" target="_blank">Knockout</a> and <a href="http://www.requirejs.org/" rel="external" target="_blank">RequireJS</a>.<br />
+            Its source code is freely available on GitHub.
+        </p>
+    </section>
+    <section id="sec-create">
+        <section class="import-step" id="import-step-1">
+            Let's go ! First, make sure that you are currently authentified on the official <a href="http://www.pathofexile.com" rel="external" target="_blank">Path of Exile</a> website.
+            If you're not you won't be able to get your character data.
+            <a href="#import-step-2" class="step-confirm">I am connected !</a>
+        </section>
+        <section class="import-step" id="import-step-2">
+            <p>Please type here the name of your character (no typos !) :<br />
+                <label for="import-step-2-charname">Character name</label>
+                <input id="import-step-2-charname" />
+            </p>
+            <p>
+                <a href="#import-step-3" class="step-confirm">Done</a>
+            </p>
+        </section>
+
+    </section>
+    <section id="sec-show">
+
+    </section>
+</body>
+</html>

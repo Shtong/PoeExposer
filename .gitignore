@@ -1,0 +1,23 @@
+#OS junk files
+[Tt]umbs.db
+*.DS_Store
+
+#Visual Studio files
+#(I do use VS as an IDE, but I don't want any of its files to be in the way)
+*.[Oo]bj
+*.user
+*.suo
+[Oo]bj/
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+packages/
+*.nupkg
+*.config
+*.sln
+*.csproj
+Properties/
+
+#vim
+*~
+
